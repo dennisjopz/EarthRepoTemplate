@@ -161,14 +161,14 @@ body {
 }
 
 nav {
-	top: 15%;
+	/*top: 15%;*/
   text-align: center;
   background: rgba(0, 0, 0, 0.75);
   position: fixed;
   z-index: 100;
-  height: 90%;
+  height: 100%;
   left: 0;
-  width: 15%;
+  width: 10%;
   font-weight: 300;
   font-size: 1rem;
 }
@@ -347,15 +347,17 @@ nav a::before {
   background-size: cover;
   overflow: hidden;
 }
-#image-slider ul li:nth-child(1) {
-  background-image: url(../images/full-bg-01.jpg);
-}
-#image-slider ul li:nth-child(2) {
-  background-image: url(../images/full-bg-02.jpg);
-}
-#image-slider ul li:nth-child(3) {
-  background-image: url(../images/full-bg-03.jpg);
-}
+    #image-slider ul li:nth-child(1) {
+        background-image: url(../images/full-bg-03.jpg);
+        
+    }
+    #image-slider ul li:nth-child(2) {
+        background-image: url(../images/full-bg-01.jpg);
+        
+    }
+    #image-slider ul li:nth-child(3) {
+        background-image: url(../images/full-bg-02.jpg);
+    }
 #image-slider ul li.active-img{
   left: 0;
 }
